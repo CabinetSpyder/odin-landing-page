@@ -94,3 +94,40 @@ div.header-content button{
     justify-content: center;
     align-items: center;
 }
+
+.rand-info{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding:10%;
+    padding-top: 0;
+    padding-bottom: 5%; 
+}
+
+div.rand-info h2 {
+    padding-bottom: 1%;
+}
+
+.rand-info-content{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.rand-info-img{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882F6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
