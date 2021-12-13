@@ -107,6 +107,10 @@ div.header-content button{
 
 div.rand-info h2 {
     padding-bottom: 1%;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    
 }
 
 .rand-info-content{
@@ -117,6 +121,14 @@ div.rand-info h2 {
     padding: 20%;
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.rand-info-unit{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 .rand-info-img{
