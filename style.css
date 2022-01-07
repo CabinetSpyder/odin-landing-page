@@ -10,6 +10,9 @@ body {
     margin: 0;
 }
 
+.container{
+    flex:1; /* Para que el footer se quede pegado */
+}
 .header {
 
     display: flex;
@@ -175,13 +178,14 @@ div.rand-info h2 {
     
 }
 
-.footer{
+.footer1{
 
     display: flex;
     flex-flow: column nowrap;
     padding:10%;
-    padding-bottom: 5%; 
     padding-top: 5%;
+    padding-bottom: 5%;
+    flex: 1;
 }
 
 .top-footer{
@@ -191,9 +195,11 @@ div.rand-info h2 {
     align-content: center;
     background-color: #3882F6;
     
+    
 }
 
 .call-to-action{
+
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -227,4 +233,14 @@ div.top-footer button{
     background-color: #3882F6;
     color: #F9FAF8;
     
+}
+
+.footer2{
+    height: 50px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color:#E5E7EB;
 }
