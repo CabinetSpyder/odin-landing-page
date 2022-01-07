@@ -154,9 +154,11 @@ div.rand-info h2 {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    padding: 20px;
+    
+    padding: 20%;
+    padding-top: 5%;
+    padding-bottom: 0;
 }
-
 
 
 .quote-author{
@@ -167,4 +169,62 @@ div.rand-info h2 {
     text-align: right;
     margin-top: 0;
     align-self: flex-end;
+    padding: 15%;
+    padding-top: 0;
+    padding-bottom: 5%;
+    
+}
+
+.footer{
+
+    display: flex;
+    flex-flow: column nowrap;
+    padding:10%;
+    padding-bottom: 5%; 
+    padding-top: 5%;
+}
+
+.top-footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #3882F6;
+    
+}
+
+.call-to-action{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content:center;
+}
+
+
+.call-to-action p:first-child{
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.call-to-action p:nth-child(2){ /* Acceder al segundo hijo*/
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+div.top-footer button{
+    
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 25px;
+    align-self: center;
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+    
 }
